@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang="fa"><head><meta charset="UTF-8"><title>ثبت‌نام</title><link rel="stylesheet" href="../assets/css/auth.css"></head>
+<body class="auth-body">
+<div class="auth-container"><div class="auth-box">
+    <div class="auth-logo"><img src="../assets/images/logo.png"><h2>ثبت‌نام</h2></div>
+    <form id="phone-form"><h3>شماره موبایل</h3><input type="tel" id="phone-number" required><button class="btn-primary">دریافت کد</button></form>
+    <form id="otp-form" style="display:none;"><h3>کد ۶ رقمی</h3><p class="otp-sent-to">کد به <span id="sent-phone"></span> ارسال شد</p><div class="otp-inputs"><input maxlength="1"><input maxlength="1"><input maxlength="1"><input maxlength="1"><input maxlength="1"><input maxlength="1"></div><button class="btn-primary">تأیید</button><button id="resend-otp" class="btn-link">ارسال مجدد</button></form>
+    <form id="complete-form" style="display:none;"><h3>اطلاعات حساب</h3><input type="text" id="fullname" placeholder="نام کامل" required><input type="password" id="password" placeholder="رمز عبور"><button class="btn-primary">ثبت</button></form>
+    <p>حساب دارید؟ <a href="login.html">ورود</a></p>
+</div></div>
+<script src="../assets/js/auth.js"></script>
+</body></html>
