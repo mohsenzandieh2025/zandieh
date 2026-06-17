@@ -1,0 +1,12 @@
+.auth-body { background:#f0f2f5; display:flex; align-items:center; justify-content:center; min-height:100vh; }
+.auth-container { width:100%; max-width:420px; padding:20px; }
+.auth-box { background:#fff; border-radius:12px; padding:40px 30px; box-shadow:0 5px 25px rgba(0,0,0,0.1); }
+.auth-logo { text-align:center; margin-bottom:25px; }
+.auth-logo img { width:80px; }
+.auth-form h3 { margin-bottom:20px; }
+.input-group { position:relative; margin-bottom:15px; }
+.input-group i { position:absolute; right:12px; top:14px; color:#999; }
+.input-group input { width:100%; padding:12px 40px; border:1px solid #ddd; border-radius:8px; }
+.btn-primary { width:100%; padding:14px; background:var(--primary); color:#fff; border:none; border-radius:8px; cursor:pointer; }
+.otp-inputs { display:flex; gap:10px; justify-content:center; margin:25px 0; }
+.otp-inputs input { width:50px; height:55px; text-align:center; font-size:22px; border:1px solid #ddd; border-radius:8px; }
