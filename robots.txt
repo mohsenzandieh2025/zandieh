@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zandieh.runhosting.com/sitemap.xml
